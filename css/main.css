@@ -96,7 +96,9 @@ footer {
   flex-flow: row wrap;
 }
 
-/********    BASE HEADER / FOOTER STYLES    **********/
+header {
+  margin: 15px 0;
+}
 
 header .content-wrapper {
   display: flex;
@@ -104,18 +106,37 @@ header .content-wrapper {
   align-items: center;  
   flex-flow: row wrap;
 }
+.logo {
+  margin: 0;
+}
+
+.header-divider {
+  width: 100%;
+  margin: 10px 0 20px 0;
+}
 
 header nav {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
   flex-flow: row wrap;
+  width: 50%;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+foot .contact {
+  margin-bottom: 50px;
 }
 
 footer .social-icons {
@@ -128,13 +149,22 @@ footer .social-icons p {
   justify-content: space-around; 
 }
 
+footer .copyright {
+  margin: 20px 0;
+}
+
 
 /***************      MOBILE STYLES - HOMEPAGE          *******************/
+.content-wrapper {
+  width: 90%;
+}
+
 
 .hero-section {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  margin: 50px 0;
 }
 
 aside {
@@ -142,11 +172,34 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 50px 0;
+}
+
+aside h3 {
+  margin: 20px 0;
+}
+
+.form-description {
+  padding-bottom: 30px;
 }
 
 .features {
   display: flex;
   justify-content: center;
+}
+
+.features h2 {
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.features article {
+  width: 60%;
+  margin: 30px 0;
+}
+
+.features p {
+  margin: 0;
 }
 
 .features .feature-items {
@@ -159,6 +212,16 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  margin: 50px 0;
+}
+
+.reviews h2 {
+  margin-bottom: 40px;
+}
+
+.reviews h3 {
+  width: 60%;
+  margin: 20px 0;
 }
 
 /***************    ABOUT PAGE          *******************/
