@@ -93,27 +93,29 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 /********    BASE HEADER / FOOTER STYLES    **********/
-header {
-
-}
 
 header .content-wrapper {
   display: flex;
-  justify-content: center;  
+  justify-content: center;
+  align-items: center;  
+  flex-flow: row wrap;
 }
 
 header nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  flex-flow: row wrap;
 }
 
 footer .social-icons {
@@ -132,32 +134,31 @@ footer .social-icons p {
 .hero-section {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
 }
 
 aside {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  flex-flow: row wrap;
 }
 
 .features {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.features .features-items {
+.features .feature-items {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
 }
 
 .reviews {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
 }
 
 /***************    ABOUT PAGE          *******************/
@@ -166,14 +167,14 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .contact-section {
   display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-flow: column nowrap;
-    align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /***************      FAQ PAGE          *******************/
@@ -182,12 +183,14 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .faq-content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 /* ==========================================================================
    Helper classes
