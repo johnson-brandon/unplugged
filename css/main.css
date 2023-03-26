@@ -117,17 +117,15 @@ header .content-wrapper {
 
 header nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
-  flex-flow: row wrap;
-  width: 50%;
+  width: 100%;
 }
 
 footer .content-wrapper {
@@ -135,8 +133,16 @@ footer .content-wrapper {
   margin: 50px 0;
 }
 
-foot .contact {
+footer .contact {
   margin-bottom: 50px;
+}
+
+footer h4 {
+  margin: 20px 0;
+}
+
+footer p {
+  margin: 0;
 }
 
 footer .social-icons {
@@ -177,6 +183,10 @@ aside {
 
 aside h3 {
   margin: 20px 0;
+}
+
+aside p {
+  margin: 0;
 }
 
 .form-description {
