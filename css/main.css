@@ -87,6 +87,55 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* General Styles */
+    
+   html {
+     font-size: 16px;
+   }
+    
+   body {
+    font-size: 1em;
+    font-family: "open sans", sans-serif;
+   }
+    
+   ul, 
+   ol {
+    list-style-type: none;
+   }
+    
+   a {
+     text-decoration: none;
+     color: #e2e3ed;
+   }
+    
+   h2 {
+    font-family: "poppins", sans-serif;
+    font-size: 1.875em;
+    font-weight:500;
+   }
+    
+   h3, 
+   h4 {
+    font-family: "poppins", sans-serif;
+    font-size: 1.125em;
+    font-weight: 500;
+    margin: 20px 0;
+   }
+    
+   p {
+     font-size: 0.875em;
+     line-height: 1.125em;
+   }
+    
+   address {
+    font-style: normal;
+   }
+    
+   .content-wrapper {
+    width: 90%;
+    margin: 50px 0;
+   }
+
 /***************       BASE HEADER - FOOTER STYLES          *******************/
 header,
 footer {
@@ -176,11 +225,21 @@ footer .copyright {
   margin: 50px 0;
 }
 
+nav {
+  font-size: 1.125em;
+  font-weight: bold;
+}
 
 .hero-section {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+h1 {
+  font-size: 2.25em;
+  line-height: 2.6875em;
+  font-weight: 500;
 }
 
 aside {
@@ -282,6 +341,11 @@ aside p {
 .faq-content {
   margin-bottom: 50px;
 }
+
+.faq-content h4 {
+  line-height: 24px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
