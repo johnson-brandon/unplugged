@@ -124,7 +124,7 @@ textarea {
     
    p {
      font-size: 0.875em;
-     line-height: 1.125em;
+     line-height: 1.28571;
    }
     
    address {
@@ -236,10 +236,11 @@ nav {
   flex-flow: row wrap;
 }
 
-h1 {
+.hero-section h1 {
   font-size: 2.25em;
-  line-height: 2.6875em;
+  line-height: 1.19444;
   font-weight: 500;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
 }
 
 aside {
@@ -259,6 +260,32 @@ aside p {
 
 .form-description {
   padding-bottom: 30px;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .features {
@@ -343,7 +370,7 @@ aside p {
 }
 
 .faq-content h4 {
-  line-height: 24px;
+  line-height: 1.33333;
 }
 
 /* ==========================================================================
@@ -443,6 +470,16 @@ aside p {
   margin: 100px 0;
 }
 
+h2 {
+  font-size: 2.25em;
+  line-height: 1.33333;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.25;
+}
+
 /**** HEADER STYLES ****/
 header {
   padding: 33px 0;
@@ -474,6 +511,8 @@ section.hero-section {
 .hero-section h1 {
   margin: 0;
   width: 80%;
+  font-size: 3em;
+  line-height: 1;
 }
 
 aside .content-wrapper {
@@ -533,6 +572,14 @@ footer .contact {
   margin-bottom: 0;
 }
 
+footer h4 {
+  font-size: 1.5em;
+}
+
+footer p {
+  line-height: 1.28571;
+}
+
 footer .copyright {
   width: 100%;
 }
@@ -574,25 +621,43 @@ footer .copyright {
   width: 100%;
 }
 
+.faq h4,
+.faq p {
+  font-size: 0.875em;
+  line-height: 1.125;
+}
+
 }
 
 @media only screen and (min-width: 1200px) {
   /* DESKTOP STYLES HERE */
 
-  /**** GLOBAL STYLES ****/
+header {
+  padding: 15px 0;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3,
+h4 {
+  font-size: 1.875;
+}
+
+p {
+  font-size: 1.125em;
+  line-height: 1.33333;
+}
+
 .content-wrapper {
   max-width: 960px;
   margin: 100px 0;
 }
 
-/**** HEADER STYLES ****/
-header {
-  padding: 15px 0;
-}
-
-/**** MAIN STYLES ****/
 .hero-section h1 {
   width: 70%;
+  font-size: 3.75em;
 }
 
 aside .content-wrapper {
@@ -624,8 +689,19 @@ aside .content-wrapper .form-description,
 .mission h2,
 .contact-section .content-wrapper h2 {
   width: 90%;
+  font-size: 3em;
 }
 
+/***************    FAQ PAGE          *******************/
+.faq h2 {
+  font-size: 3em;
+}
+
+.faq h4
+.faq p {
+  font-size: 1.125em;
+  line-height: 1;
+}
 }
 /* ==========================================================================
    Print styles.
