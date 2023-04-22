@@ -228,16 +228,17 @@ footer .social-icons {
 }
 
 footer .social-icons p {
-  display: flex;
-  justify-content: center;
-  background-color: #527158;
-  border-radius: 25px;
-  width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #527158;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
 
 footer .social-icons i {
   font-size: 1.3125em;
-  padding: 10px;
 }
 
 footer .copyright {
@@ -656,10 +657,8 @@ footer p {
   line-height: 1.28571;
 }
 
-footer .social-icons p {
-  width: 40px;
-  height: 40px;
-  margin: 0 12px;
+footer .social-icons {
+  width: 12em;
 }
 
 footer .copyright {
