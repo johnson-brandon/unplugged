@@ -305,6 +305,8 @@ input[type=text] {
   color: #2a423a;
   font-style: italic;
   padding: 1em;
+  font-size: 1.125em;
+  font-weight: 500;
 }
  
 input[type=button] {
@@ -363,6 +365,7 @@ input[type=button] {
 
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 1em;
 }
 
 .reviews h3 {
@@ -424,6 +427,7 @@ input[type=button] {
 
 .faq h2 {
   margin-bottom: 40px;
+  line-height: 1em;
 }
 
 .faq-content {
@@ -431,7 +435,7 @@ input[type=button] {
 }
 
 .faq-content h4 {
-  line-height: 1.33333;
+  line-height: 1.33333em;
 }
 
 /* ==========================================================================
@@ -654,7 +658,7 @@ footer h4 {
 }
 
 footer p {
-  line-height: 1.28571;
+  line-height: 1.28571em;
 }
 
 footer .social-icons {
@@ -679,7 +683,7 @@ footer .copyright {
 }
 
 .map figure {
-  padding-bottom: 45.5%;
+  padding-bottom: 45.6%;
 }
 
 .contact-section .content-wrapper h2 {
@@ -710,7 +714,7 @@ footer .copyright {
   width: 100%;
 }
 
-.faq h4,
+.faq h4, 
 .faq p {
   font-size: 0.875em;
   line-height: 1.125;
@@ -731,7 +735,7 @@ h2 {
 
 h3,
 h4 {
-  font-size: 1.875;
+  font-size: 1.875em;
 }
 
 p {
@@ -774,6 +778,14 @@ aside .content-wrapper .form-description,
   width: 42%;
 }
 
+footer h4 {
+  font-size: 1.875em;
+}
+
+footer p {
+  font-size: 1.125em;
+  line-height: 1.3333;
+}
 /***************    ABOUT PAGE          *******************/
 .mission h2,
 .contact-section .content-wrapper h2 {
@@ -783,6 +795,10 @@ aside .content-wrapper .form-description,
 
 .map figure {
   padding-bottom: 37.5%;
+}
+
+.contact-content h4 {
+  font-size: 1.875em;
 }
 
 /***************    FAQ PAGE          *******************/
